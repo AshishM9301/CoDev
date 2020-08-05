@@ -1,0 +1,160 @@
+.round::after {
+    content: url(data:image/svg+xml;utf8,%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22120px%22%20height%3D%2220px%22%20viewBox%3D%220%200%201200%20200%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%0A%20%20%3Cpath%20stroke%3D%22black%22%20stroke-width%3D%223%22%20fill%3D%22none%22%20d%3D%22M1145%2085c17%2C7%208%2C24%20-4%2C29%20-12%2C4%20-40%2C6%20-48%2C-8%20-9%2C-15%209%2C-34%2026%2C-42%2017%2C-7%2045%2C-6%2062%2C2%2017%2C9%2019%2C18%2020%2C27%201%2C9%200%2C29%20-27%2C52%20-28%2C23%20-52%2C34%20-102%2C33%20-49%2C0%20-130%2C-31%20-185%2C-50%20-56%2C-18%20-74%2C-21%20-96%2C-23%20-22%2C-2%20-29%2C-2%20-56%2C7%20-27%2C8%20-44%2C17%20-44%2C17%20-13%2C5%20-15%2C7%20-40%2C16%20-25%2C9%20-69%2C14%20-120%2C11%20-51%2C-3%20-126%2C-23%20-181%2C-32%20-54%2C-9%20-105%2C-20%20-148%2C-23%20-42%2C-3%20-71%2C1%20-104%2C5%20-34%2C5%20-65%2C15%20-98%2C22%22%2F%3E%0A%3C%2Fsvg%3E%0A);
+}
+
+.min-h-71 {
+    min-height: 71rem;
+}
+
+.font-ubuntu {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.font-cuprum {
+    font-family: "Cuprum", sans-serif;
+}
+
+.font-spartan {
+    font-family: 'Spartan', sans-serif;
+}
+
+.font-sanchez {
+    font-family: 'Sanchez', serif;
+}
+
+.font-didcat {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.font-rowdies {
+    font-family: 'Rowdies', cursive;
+}
+
+.font-slabo27 {
+    font-family: 'Slabo 27px', serif;
+}
+
+.font-abrilfatface {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.scale {
+    height: 250px;
+    width: 250px;
+}
+
+.custom-font {
+    font-size: 10rem;
+}
+
+.custom-font-sm {
+    font-size: 5rem;
+}
+
+.custom-font-md {
+    font-size: 7.5rem;
+}
+
+.-margin-top-sm {
+    margin-top: -4rem;
+}
+
+
+.-margin-top-md {
+    margin-top: -6rem;
+}
+
+@media screen and (min-width: 1171px) {
+    .margin-left-xl {
+        margin-left: 10rem;
+    }
+
+    .margin-top-xl {
+        margin-top: 10rem;
+    }
+
+    .triangle-left {
+        width: 100%;
+        position: relative;
+        background-color: #2d3748;
+
+    }
+
+    .triangle-left::after {
+        position: absolute;
+        margin-top: -29.6rem;
+        top: 50%;
+        left: 100%;
+        margin-left: 0%;
+        content: '';
+        width: 0;
+        height: 0;
+        border-top: solid 29.6rem #2d3748;
+        border-bottom: solid 29.66rem #2d3748;
+        border-right: solid 20rem transparent;
+    }
+}
+
+.flip {
+    animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite
+}
+
+@keyframes flip4 {
+    0% {
+        margin-top: -360px;
+    }
+
+    5% {
+        margin-top: -270px;
+    }
+
+    25% {
+        margin-top: -270px;
+    }
+
+    30% {
+        margin-top: -180px;
+    }
+
+    50% {
+        margin-top: -180px;
+    }
+
+    55% {
+        margin-top: -90px;
+    }
+
+    75% {
+        margin-top: -90px;
+    }
+
+    80% {
+        margin-top: 0px;
+    }
+
+    99.99% {
+        margin-top: -270px;
+    }
+
+    100% {
+        margin-top: -360px;
+    }
+}
+
+
+
+.pattern-1 {
+    background-color: #bee3f8;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%2300a0fb' fill-opacity='0.4' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.pattern-2 {
+    background-color: #2d3748;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%2300a0fb' fill-opacity='0.4' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.shadow-inside-2 {
+    -webkit-box-shadow: inset 53px 29px 189px -31px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 53px 29px 189px -31px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 53px 29px 189px -31px rgba(0, 0, 0, 0.75);
+}
