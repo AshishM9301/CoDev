@@ -6,6 +6,9 @@ function UploadBlogPage() {
   myHeaders.append('end-auth', `${localStorage.getItem('token')}`);
 
   useEffect(() => {
+    const myHeaders = new Headers();
+    myHeaders.append('Content-Type', 'application/json');
+    myHeaders.append('end-auth', `${localStorage.getItem('token')}`);
     console.log(myHeaders);
     fetch('/api/users/auth', {
       method: 'GET',

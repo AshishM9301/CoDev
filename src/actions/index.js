@@ -25,7 +25,6 @@ import {
 
 import { returnError } from './errorAction';
 
-import Axios from 'axios';
 import { getMessage } from './msgAction';
 import { clickedPaymentButton } from './dashboardAction';
 
@@ -71,7 +70,7 @@ export const signOut = () => {
 
 export const login = (formValues) => {
   return (dispatch) => {
-    const response = fetch('/api/users/login', {
+    fetch('/api/users/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -104,7 +103,7 @@ export const register = (formValues) => {
         type: REGISTER_FAIL,
       });
     } else {
-      const response = fetch('/api/users/register', {
+      fetch('/api/users/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -132,7 +131,7 @@ export const register = (formValues) => {
 };
 
 export const logout = () => {
-  const respose = fetch('/api/users/logout').then((res) => res.data);
+  fetch('/api/users/logout').then((res) => res.data);
 
   return {
     type: SIGN_OUT,

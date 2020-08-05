@@ -85,7 +85,7 @@ export class Login extends Component {
         <div className='w-full mx-auto flex flex-col xl:flex-row justify-center xl:h-screen '>
           <div className=' xl:w-1/12 w-full triangle-left xl:mt-0 mt-10'>
             <div className='xl:w-64 w-32 bg-white xl:py-8 py-4 rounded-full xl:mt-64 mx-auto'>
-              <img src={logo} className='mx-auto max-w-full' />
+              <img src={logo} alt='logo' className='mx-auto max-w-full' />
             </div>
           </div>
           <div className='mb-10 xl:mb-0 xl:w-11/12 w-full flex mt-12 xl:mt-0 items-center mx-auto justify-center'>

@@ -117,24 +117,7 @@ class First_Plan extends Component {
                 <p className='font-hairline xl:text-2xl text-lg'>
                   Learn C | C++ | Java | Python DS efficiently
                 </p>
-                <p>
-                  By
-                  <a
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    // href='https://instagram.com/rohan_zemog?igshid=pz646iny7p5b'
-                    className='p-2 text-blue-400'>
-                    Abhishek
-                  </a>
-                  &
-                  <a
-                    // href='https://www.instagram.com/msrajpu_t?r=nametag'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    className='text-blue-400 p-2'>
-                    Shivam
-                  </a>
-                </p>
+                <p>By Abhishek & Shivam</p>
                 <div className='mt-8 mr-10'>{this.onLogin()}</div>
               </div>
             </div>

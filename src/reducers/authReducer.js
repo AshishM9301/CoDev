@@ -52,7 +52,6 @@ export default function (state = initialState, action) {
 
     case GOOGLE_SIGN_IN:
     case REGISTERSUCCESS:
-    case LOGIN_SUCCESS:
       return {
         ...state,
         isSignedIn: true,
